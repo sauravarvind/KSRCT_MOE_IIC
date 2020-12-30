@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="icon" type="image/x-icon" href="images/logoiic3.png">
+  <!--<meta http-equiv="X-UA-Compatible" content="ie=edge" />-->
+   <title>KSRCT_IIC</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/all.css">
+  <link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+  <!--<link rel="stylesheet" href=" css/mobile.css"/>-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+   <script src="./main.js"></script>
+</head >
+<body>
+
+<header>
+         <div class="container-fluid p-0" id="mainhead" style="position: fixed; z-index: 2;">
+      <nav class="navbar navbar-expand-md">
+         <a class="navbar-brand" href="http://ksrct.ac.in" target="_blank">
+    <img src="images/logo.png" class="img-fluid" style="width: 45px; height: 45px;">
+ </a>
+   <a class="navbar-brand" href="http://ksrct.ac.in" target="_blank" >
+    <img src="images/ctsj.png" class="img-fluid" style="width: 45px; height: 45px;">
+ </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-align-center text-light"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <!--div class="mr-auto"></div-->
+          
+           <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item dropdown">
+              <div class="dropdown">
+                <a href="index.html#INITIATIVES" class="nav-link">Initiatives</a>
+                <div class="dropdown-content dc">
+                  <a href="index2.html">Innovation & IPR Cell</a>
+                   <a href="index3.html">Exhibition Cell</a>
+                    <a href="index4.html">Technology Transfer Team</a>
+                     <a href="index5.html">Start-ups & Entrepreneurship Development Cell</a>
+                      <a href="index6.html">Career Guidance and Corporate Relationship</a>
+                       <a href="index7.html">Social Media Cell</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <div class="dropdown">
+                <a href="#trip" class="nav-link" data-toggle="modal" data-target="#mymodal">Events</a>
+                <div class="dropdown-content">
+                  <a href="index.html#NEWS">News Hub</a>
+                  <a href="index.html#GALLERY">Photo Gallery</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#ACHIEVEMENTS">Achievements</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#SUCCESS%20STORIES">Success Stories</a>
+            </li>
+             <li class="nav-item dropdown">
+              <div class="dropdown">
+                <a href="#trip" class="nav-link">NISP</a>
+                <!--div class="dropdown-content">
+                  <a href="#">IIC Care</a>
+                  <a href="#">IIC Membership</a>
+                </div-->
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <div class="dropdown">
+                <a href="index.html#ABOUTUS" class="nav-link">About us</a>
+                <div class="dropdown-content">
+                  <a href="index.html#STUDENTTEAM">Team Lead</a>
+                   <a href="index.html#ABOUTUS">Contact Us</a>
+                </div>
+              </div>
+            </li>
+            <li class="signup-btn">
+                <a href="#"><span>Register Us</span></a>
+              </li>
+          </ul>
+          <a class="navbar-brand" href="https://mic.gov.in/" target="_blank" >
+    <img src="images/MOEIIC.png" class="img-fluid" style="width: 45px; height: 45px;">
+ </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+    <style type="text/css">
+   @media only screen and (max-width: 768px) {
+    .signup-btn{
+      display: none;
+    }
+  }
+
+     @media only screen and (min-width:789px) {
+      .trick{
+      display:none ;
+    }
+    }
+  </style>
+    <style type="text/css">
+      .sau{
+       width: 415.74px;
+        height: 345.66px; 
+       padding-top: 55px;
+     }
+       @media only screen and (max-width:990px){
+            .sau{
+              width: 340.74px;
+        height: 200.66px; 
+        padding-left:20px;
+        }            
+      }
+    </style>
+    <div class="section starts" style="padding-top: 50px;">
+      <div class="container">
+        <h3 style="padding-top: 55px;"><strong>Exhibition Cell (EC)</strong></h3>
+        <div class="row">
+                    <div class="col-sm-5">
+            <img class="sau" src="images\exhibitiont.png" alt="img-fluid" align="center">
+          </div>
+          <div class="col-sm-7" style="padding-top: 30px;">
+            <h4 style="">Roles and Responsibilities</h4>
+            <p style="justify-content: center;"><ul><li>To assist with the planning of the exhibition, paying special attention to how the projects and texts enhance audience experiences</li>
+<li>To consult with subject matter experts, community groups and organisations, and other information providers</li>
+<li> To reach out and make an effort to find what’s new in the world for design and request for a conference to explain the innovative efforts.</li>
+<li>To foster good relationships with media partners and industry associations.</li>
+<li>To market and promote the event or exhibition across multiple platforms in the industry of innovation and research.</li>
+<li>To identify potential business, researching, writing, planning and running all aspects of exhibitions on innovation and research.</li></ul>
+
+ 
+            </p>
+          </div>
+          <style type="text/css">
+            @media only screen and (min-width: 360px)
+            {
+            .idio h4, p{
+              padding-right: 20px;
+              padding-left: 20px;
+              align-content: center;
+            }
+          }
+          </style>
+          <div class="idio" style="padding-top: 20px; padding-bottom: 20px;">
+          <h4 >Vision</h4><br>
+          <p>To set an active state of mind, chooses constant enterprising endeavours, learns from the past, respects the present and welcomes the future with a positive curiosity to constantly explore. The limitless spirit has the power to take on every challenge and convert adversities and threats into viable opportunities</p>
+<br>
+<h4>Mission</h4><br>
+          <p>To constantly innovate and create new strategies that can help make a difference in exhibition and marketing campaign, from exhibit design and brand development to providing innovative marketing communication tools.
+</p>
+
+        </div>
+        </div>    
+    </div>
+    <style type="text/css">   
+    .e{
+      width:10rem;
+      padding-bottom: 50px;
+    }              
+      @media only screen and (min-width: 360px){
+     .e{
+      width: 10rem;
+      padding-left: 25px;
+      padding-bottom: 40px;
+     }
+.set{
+  padding-left: 10px;
+}
+.ven{
+  padding-bottom: 25px;
+}
+      }
+    </style>
+     <div class="section">
+  <div>
+        <div class="text-light" id="mainhead" style="text-align: center; padding-top: 10px;">
+          <h3 id="STUDENTTEAM" style="padding-bottom:10px;">Head Coordinator</h3>
+        </div>
+      </div>
+    </div>
+  <!--style type="text/css">
+    .th{
+      width: 50rem;
+    }
+    .thi{
+width: 189px; 
+height: 212px;
+    }
+    @media only screen and (max-width: 1300px) {
+ .th{
+  width: 20rem;
+  padding-bottom: 15px;
+    }
+    .thi{
+      width: 315px;
+    }
+ }
+  </style>
+  <div class="container-fluid">
+  <div class="center" style="padding-top: 15px; padding-bottom: 15px; padding-left: 15px; padding-right: 15px;" align="center">
+  <div class="col-sm-6" style="padding-bottom: 15px;">
+    <div class="th card">
+      <div class="row">
+      <div class="col-sm-6">
+      <img class="card-img-left thi" src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/8_avatar-128.png" alt="Card image cap" >
+    </div>
+      <div class="col-sm-6">
+      <div class="card-body">
+      <div class="text-align-left card-text" align="left">
+        <h5>Name: Dr.P.S.Sampath </h5>
+        <h5>Position: Chief coordinator</h5>
+        <h5>Department: Mechanical</h5>
+        <h5>Mobile Number: 9962116570</h5>
+        <h5>Mail ID: sampathps@ksrct.ac.in</h5> 
+    </div>
+      </div>
+    </div>
+  </div>
+    </div>
+</div>
+</div>
+  <div class="section">
+  <div>
+        <div class="text-light" id="mainhead" style="text-align: center; padding-top: 10px;">
+          <h3 id="STUDENTTEAM" style="padding-bottom:10px;">Faculty Coordinator</h3>
+        </div>
+      </div>
+    </div>
+    <style type="text/css">
+.overlay {
+  position: absolute; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: black;
+  font-size: 20px;
+  padding: 20px;   
+  text-align: center;
+}
+.bring:hover img{
+  opacity: 0.1;                         
+}
+.bring:hover .overlay {
+  opacity: 1;
+}
+      </style>
+ <section class="section" style="padding-top: 30px;" id="ourteam">
+      <div class="container-fluid">
+      <div class="row">
+        <div class="col-md" align="center" style="padding-top: 25px;">
+          <div class="card numbers  box-shadow-hover pointer" style="width: 10.5rem;">
+            <div class="bring">
+            <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/10_avatar-128.png" class="card-img" alt="...">
+             <div class="overlay text-center"><h5 style="position: absolute;left: 50%;transform: translate(-50%, -50%); padding-bottom: 150px;">DEPARTMENT<br>YEAR</h5></div></div>
+            <div class="text-center" style="padding-top: 35px; padding-bottom: 25px;">
+              <h5>NAME</h5>
+            </div>
+        </div>
+        </div>
+        <div class="col-md" align="center"  style="padding-top: 25px;">
+          <div class="card numbers  box-shadow-hover pointer" style="width: 10.5rem;">
+            <div class="bring">
+            <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/11_avatar-128.png" class="card-img" alt="...">
+            <div class="overlay text-center"><h5 style="position: absolute;left: 50%;transform: translate(-50%, -50%); padding-bottom: 150px;">DEPARTMENT<br>YEAR</h5></div>
+          </div>
+            <div class="text-center" style="padding-top: 35px; padding-bottom: 25px;">
+              <h5>NAME</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md" align="center"  style="padding-top: 25px;">
+          <div class="card numbers  box-shadow-hover pointer" style="width: 10.5rem;">
+            <div class="bring">
+            <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/4_avatar-128.png" class="card-img" alt="...">
+            <div class="overlay text-center"><h5 style="position: absolute;left: 50%;transform: translate(-50%, -50%); padding-bottom: 150px;">DEPARTMENT<br>YEAR</h5></div>
+          </div>
+            <div class="text-center" style="padding-top: 35px; padding-bottom: 25px;">
+              <h5>NAME</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md" align="center"  style="padding-top: 25px; padding-bottom: 25px;">
+          <div class="card numbers  box-shadow-hover pointer" style="width: 10.5rem;">
+            <div class="bring">
+            <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/8_avatar-128.png" class="card-img" alt="...">
+            <div class="overlay text-center"><h5 style="position: absolute;left: 50%;transform: translate(-50%, -50%); padding-bottom: 150px;">DEPARTMENT<br>YEAR</h5></div></div>
+            <div class="text-center" style="padding-top: 35px; padding-bottom: 25px;">
+              <h5>NAME</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md" align="center"  style="padding-top: 25px; padding-bottom: 25px;">
+          <div class="card numbers  box-shadow-hover pointer" style="width: 10.5rem;">
+            <div class="bring">
+            <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/11_avatar-128.png" class="card-img" alt="...">
+            <div class="overlay text-center"><h5 style="position: absolute;left: 50%;transform: translate(-50%, -50%); padding-bottom: 150px;">DEPARTMENT<br>YEAR</h5></div></div>
+            <div class="text-center" style="padding-top: 35px; padding-bottom: 25px;">
+              <h5>NAME</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md" align="center"  style="padding-top: 25px; padding-bottom: 25px;">
+          <div class="card numbers  box-shadow-hover pointer" style="width: 10.5rem;">
+            <div class="bring">
+            <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/7_avatar-128.png" class="card-img" alt="...">
+            <div class="overlay text-center"><h5 style="position: absolute;left: 50%;transform: translate(-50%, -50%); padding-bottom: 150px;">DEPARTMENT<br>YEARr</h5></div></div>
+            <div class="text-center" style="padding-top: 35px; padding-bottom: 25px;">
+              <h5>NAME</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   <section class="section" style="padding-top: 30px;" id="ourteam">
+      <div class="container-fluid">
+      <div class="row">
+        <div class="col-md" align="center" style="padding-top: 25px;">
+          <div class="card numbers  box-shadow-hover pointer" style="width: 10.5rem;">
+            <div class="bring">
+            <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/10_avatar-128.png" class="card-img" alt="...">
+             <div class="overlay text-center"><h5 style="position: absolute;left: 50%;transform: translate(-50%, -50%); padding-bottom: 150px;">DEPARTMENT<br>YEAR</h5></div></div>
+            <div class="text-center" style="padding-top: 35px; padding-bottom: 25px;">
+              <h5>NAME</h5>
+            </div>
+        </div>
+        </div>
+        <div class="col-md" align="center"  style="padding-top: 25px;">
+          <div class="card numbers  box-shadow-hover pointer" style="width: 10.5rem;">
+            <div class="bring">
+            <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/11_avatar-128.png" class="card-img" alt="...">
+            <div class="overlay text-center"><h5 style="position: absolute;left: 50%;transform: translate(-50%, -50%); padding-bottom: 150px;">DEPARTMENT<br>YEAR</h5></div>
+          </div>
+            <div class="text-center" style="padding-top: 35px; padding-bottom: 25px;">
+              <h5>NAME</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md" align="center"  style="padding-top: 25px;">
+          <div class="card numbers  box-shadow-hover pointer" style="width: 10.5rem;">
+            <div class="bring">
+            <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/4_avatar-128.png" class="card-img" alt="...">
+            <div class="overlay text-center"><h5 style="position: absolute;left: 50%;transform: translate(-50%, -50%); padding-bottom: 150px;">DEPARTMENT<br>YEAR</h5></div>
+          </div>
+            <div class="text-center" style="padding-top: 35px; padding-bottom: 25px;">
+              <h5>NAME</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md" align="center"  style="padding-top: 25px; padding-bottom: 25px;">
+          <div class="card numbers  box-shadow-hover pointer" style="width: 10.5rem;">
+            <div class="bring">
+            <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/8_avatar-128.png" class="card-img" alt="...">
+            <div class="overlay text-center"><h5 style="position: absolute;left: 50%;transform: translate(-50%, -50%); padding-bottom: 150px;">DEPARTMENT<br>YEAR</h5></div></div>
+            <div class="text-center" style="padding-top: 35px; padding-bottom: 25px;">
+              <h5>NAME</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md" align="center"  style="padding-top: 25px; padding-bottom: 25px;">
+          <div class="card numbers  box-shadow-hover pointer" style="width: 10.5rem;">
+            <div class="bring">
+            <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/11_avatar-128.png" class="card-img" alt="...">
+            <div class="overlay text-center"><h5 style="position: absolute;left: 50%;transform: translate(-50%, -50%); padding-bottom: 150px;">DEPARTMENT<br>YEAR</h5></div></div>
+            <div class="text-center" style="padding-top: 35px; padding-bottom: 25px;">
+              <h5>NAME</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md" align="center"  style="padding-top: 25px; padding-bottom: 25px;">
+          <div class="card numbers  box-shadow-hover pointer" style="width: 10.5rem;">
+            <div class="bring">
+            <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/7_avatar-128.png" class="card-img" alt="...">
+            <div class="overlay text-center"><h5 style="position: absolute;left: 50%;transform: translate(-50%, -50%); padding-bottom: 150px;">DEPARTMENT<br>YEARr</h5></div></div>
+            <div class="text-center" style="padding-top: 35px; padding-bottom: 25px;">
+              <h5>NAME</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <div class="section">
+  <div>
+        <div class="text-light" id="mainhead" style="text-align: center; padding-top: 10px;">
+          <h3 id="STUDENTTEAM" style="padding-bottom:10px;">Student Team</h3>
+        </div>
+      </div>
+    </div>
+   <section class="section" style="padding-top: 30px;" id="ourteam">
+      <div class="container-fluid">
+      <div class="row">
+        <div class="col-md" align="center" style="padding-top: 25px;">
+          <div class="card numbers  box-shadow-hover pointer" style="width: 10.5rem;">
+            <div class="bring">
+            <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/10_avatar-128.png" class="card-img" alt="...">
+             <div class="overlay text-center"><h5 style="position: absolute;left: 50%;transform: translate(-50%, -50%); padding-bottom: 150px;">DEPARTMENT<br>YEAR</h5></div></div>
+            <div class="text-center" style="padding-top: 35px; padding-bottom: 25px;">
+              <h5>NAME</h5>
+            </div>
+        </div>
+        </div>
+        <div class="col-md" align="center"  style="padding-top: 25px;">
+          <div class="card numbers  box-shadow-hover pointer" style="width: 10.5rem;">
+            <div class="bring">
+            <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/11_avatar-128.png" class="card-img" alt="...">
+            <div class="overlay text-center"><h5 style="position: absolute;left: 50%;transform: translate(-50%, -50%); padding-bottom: 150px;">DEPARTMENT<br>YEAR</h5></div>
+          </div>
+            <div class="text-center" style="padding-top: 35px; padding-bottom: 25px;">
+              <h5>NAME</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md" align="center"  style="padding-top: 25px;">
+          <div class="card numbers  box-shadow-hover pointer" style="width: 10.5rem;">
+            <div class="bring">
+            <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/4_avatar-128.png" class="card-img" alt="...">
+            <div class="overlay text-center"><h5 style="position: absolute;left: 50%;transform: translate(-50%, -50%); padding-bottom: 150px;">DEPARTMENT<br>YEAR</h5></div>
+          </div>
+            <div class="text-center" style="padding-top: 35px; padding-bottom: 25px;">
+              <h5>NAME</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md" align="center"  style="padding-top: 25px; padding-bottom: 25px;">
+          <div class="card numbers  box-shadow-hover pointer" style="width: 10.5rem;">
+            <div class="bring">
+            <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/8_avatar-128.png" class="card-img" alt="...">
+            <div class="overlay text-center"><h5 style="position: absolute;left: 50%;transform: translate(-50%, -50%); padding-bottom: 150px;">DEPARTMENT<br>YEAR</h5></div></div>
+            <div class="text-center" style="padding-top: 35px; padding-bottom: 25px;">
+              <h5>NAME</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md" align="center"  style="padding-top: 25px; padding-bottom: 25px;">
+          <div class="card numbers  box-shadow-hover pointer" style="width: 10.5rem;">
+            <div class="bring">
+            <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/11_avatar-128.png" class="card-img" alt="...">
+            <div class="overlay text-center"><h5 style="position: absolute;left: 50%;transform: translate(-50%, -50%); padding-bottom: 150px;">DEPARTMENT<br>YEAR</h5></div></div>
+            <div class="text-center" style="padding-top: 35px; padding-bottom: 25px;">
+              <h5>NAME</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md" align="center"  style="padding-top: 25px; padding-bottom: 25px;">
+          <div class="card numbers  box-shadow-hover pointer" style="width: 10.5rem;">
+            <div class="bring">
+            <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/7_avatar-128.png" class="card-img" alt="...">
+            <div class="overlay text-center"><h5 style="position: absolute;left: 50%;transform: translate(-50%, -50%); padding-bottom: 150px;">DEPARTMENT<br>YEAR</h5></div></div>
+            <div class="text-center" style="padding-top: 35px; padding-bottom: 25px;">
+              <h5>NAME</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   <section class="section" style="padding-top: 30px;" id="ourteam">
+      <div class="container-fluid">
+      <div class="row">
+        <div class="col-md" align="center" style="padding-top: 25px;">
+          <div class="card numbers  box-shadow-hover pointer" style="width: 10.5rem;">
+            <div class="bring">
+            <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/10_avatar-128.png" class="card-img" alt="...">
+             <div class="overlay text-center"><h5 style="position: absolute;left: 50%;transform: translate(-50%, -50%); padding-bottom: 150px;">DEPARTMENT<br>YEAR</h5></div></div>
+            <div class="text-center" style="padding-top: 35px; padding-bottom: 25px;">
+              <h5>NAME</h5>
+            </div>
+        </div>
+        </div>
+        <div class="col-md" align="center"  style="padding-top: 25px;">
+          <div class="card numbers  box-shadow-hover pointer" style="width: 10.5rem;">
+            <div class="bring">
+            <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/11_avatar-128.png" class="card-img" alt="...">
+            <div class="overlay text-center"><h5 style="position: absolute;left: 50%;transform: translate(-50%, -50%); padding-bottom: 150px;">DEPARTMENT<br>YEAR</h5></div>
+          </div>
+            <div class="text-center" style="padding-top: 35px; padding-bottom: 25px;">
+              <h5>NAME</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md" align="center"  style="padding-top: 25px;">
+          <div class="card numbers  box-shadow-hover pointer" style="width: 10.5rem;">
+            <div class="bring">
+            <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/4_avatar-128.png" class="card-img" alt="...">
+            <div class="overlay text-center"><h5 style="position: absolute;left: 50%;transform: translate(-50%, -50%); padding-bottom: 150px;">DEPARTMENT<br>YEAR</h5></div>
+          </div>
+            <div class="text-center" style="padding-top: 35px; padding-bottom: 25px;">
+              <h5>NAME</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md" align="center"  style="padding-top: 25px; padding-bottom: 25px;">
+          <div class="card numbers  box-shadow-hover pointer" style="width: 10.5rem;">
+            <div class="bring">
+            <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/8_avatar-128.png" class="card-img" alt="...">
+            <div class="overlay text-center"><h5 style="position: absolute;left: 50%;transform: translate(-50%, -50%); padding-bottom: 150px;">DEPARTMENT<br>YEAR</h5></div></div>
+            <div class="text-center" style="padding-top: 35px; padding-bottom: 25px;">
+              <h5>NAME</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md" align="center"  style="padding-top: 25px; padding-bottom: 25px;">
+          <div class="card numbers  box-shadow-hover pointer" style="width: 10.5rem;">
+            <div class="bring">
+            <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/11_avatar-128.png" class="card-img" alt="...">
+            <div class="overlay text-center"><h5 style="position: absolute;left: 50%;transform: translate(-50%, -50%); padding-bottom: 150px;">DEPARTMENT<br>YEAR</h5></div></div>
+            <div class="text-center" style="padding-top: 35px; padding-bottom: 25px;">
+              <h5>NAME</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md" align="center"  style="padding-top: 25px; padding-bottom: 25px;">
+          <div class="card numbers  box-shadow-hover pointer" style="width: 10.5rem;">
+            <div class="bring">
+            <img src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/7_avatar-128.png" class="card-img" alt="...">
+            <div class="overlay text-center"><h5 style="position: absolute;left: 50%;transform: translate(-50%, -50%); padding-bottom: 150px;">DEPARTMENT<br>YEARr</h5></div></div>
+            <div class="text-center" style="padding-top: 35px; padding-bottom: 25px;">
+              <h5>NAME</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section-->
+  <div class="container" style="padding-top: 50px;" align="center">
+  <div class="row" >
+    <div class="col-md-12"align="center">
+  <div class="card mb-3 co shadow-lg p-3 mb-5 rounded " style="width:400px; padding-top: 25px; align-items: center;">
+    <img class="card-img-top" src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/8_avatar-128.png" alt="Card image" style="width:200px; height: 200px;">
+    <div class="card-body">
+      <h4 class="card-title" align="center">Dr.P.S.Sampath</h4>
+      <p class="card-text">
+        Position: Chief coordinator<br>
+        Department: Mechanical Engineering</p>
+    </div>
+    <div class="tring" style="padding: 10px;">
+         <a href="tel:9962116570"> <i class="fas fa-phone-alt fa-2x ti" style="padding: 10px;"></i></a>
+         <a href="mailto:sampathps@ksrct.ac.in?cc=iicactivities@ksrct.ac.in"><i class="fas fa-envelope fa-2x ti"style="padding: 10px;"></i></a>
+    </div>
+  </div>
+</div>
+<!--div class="col-md-6">
+  <div class="card co shadow-lg p-3 mb-5 rounded " style="width:400px; padding-top: 25px; align-items: center;">
+    <img class="card-img-top" src="https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/8_avatar-128.png" alt="Card image" style="width:200px; height: 200px;">
+    <div class="card-body">
+      <h4 class="card-title" align="center">Dr.G.Ayyappadasan</h4>
+      <p class="card-text">
+        Position: Chief coordinator<br>
+        Department: Biotechnology</p>
+    </div>
+    <div class="tring" style="padding: 10px;">
+         <a href=""> <i class="fas fa-phone-alt fa-2x ti" style="padding: 10px;"></i></a>
+         <a href="mailto:sauravparameshwaran@gmail.com?cc=manomanojarun02@gmail.com">  <i class="fas fa-envelope fa-2x ti"style="padding: 10px;"></i></a>
+    </div>
+  </div>
+</div-->
+</div>
+</div>
+<style type="text/css">
+  <style>
+.ti{
+ position: center;
+  color: black;
+}
+.ti:hover{
+    -ms-transform: rotate(20deg); /* IE 9 */
+  transform: rotate(-30deg);
+}
+.co{
+      transition: .5s;
+    }
+    .co:hover{
+      transform: scale(1.1);
+      z-index: 1;
+      background-color: #072a53;
+      color: #fff;
+    }
+</style>
+</div>
+
+      <footer class="container-fluid" style="padding: 60px;">
+    <div class="container-fluid p-0">
+      <div class="row text-left">
+        <div class="col-xl-4 col-md-5">
+          <h4 class="text-light" id="ABOUTUS">About us</h4>
+          <p class="text-muted">our institution Institution's Innovation Council (IIC) is establishing purposes of systematic fostering and developing and innovating a culture of innovation, Research, Entrepreneurship among the student community and society.</p>
+        </div>
+        <div class="col-xl-4 col-md-12">
+          <h4 class="text-light">Chat Us:</h4>
+          <p class="text-muted">Stay Updated with us</p>
+          <form class="form-inline">
+            <div class="col pl-0">
+              <div class="input-group pr-5">
+                <input type="text" class="form-control bg-dark text-white" id="inlineFormInputGroupUsername2" placeholder="chat us">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <a href="https://mail.google.com/mail/u/4/#inbox"> 
+                    <i class="fas fa-arrow-right"></i></a>
+                  </div>
+                </div>
+          <!--p class="text-light" style="padding-top: 20px;">Designed and developed by:
+                <marquee  onmouseover="this.stop()" onmouseout="this.start()"> 
+                1.Deepa Jothi.S 2.Priya Dharshini.S 3.Meiyazhagan.K 4.Sedhuragavan.L 5.Venkatesh.J 6.Vasanth.A 7.Mohana Raj.K 8.Vijayaragavan.G 9.Maheshwaran.A.K 10.Saurav Arvind.P</p></marquee-->
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-xl-4 col-md-12">
+          <h4 class="text-light">Follow Us</h4>
+          <p class="text-muted">Let us all be connected socially</p>
+          <div class="column text-light" style="padding: 5px; font-size: 25px;">
+            <a href="https://www.facebook.com/iicksrct1994/" target="_blank"><i class="fab fa-facebook-f"style="padding: 5px;" ></i></a>
+             <a href="https://instagram.com/iicksrct1994?igshid=ofqhurl2g7mo"target="_blank"><i class="fab fa-instagram"style="padding: 5px;"></i></a>
+             <a href=" https://twitter.com/iicksrct1994?s=08"target="_blank"><i class="fab fa-twitter"style="padding: 5px;"></i></a>
+            <a href="https://www.youtube.com/channel/UCuX4zc8bziSV3f2Y_O7ISPQ"target="_blank"> <i class="fab fa-youtube"style="padding: 5px;"></i></a>
+            <a href="https://www.linkedin.com/in/mhrd-iic-ksrct-8962161b5"target="_blank"> <i class="fab fa-linkedin"style="padding: 5px;"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+</div>
+<div class="row text-light">
+  <div class="col-md-4">
+<ul>
+  <strong>WEB DESIGN:</strong>
+  <li>Deepa Jothi S</li>
+  <li>Thangalakshmi J</li>
+</ul>
+</div>
+<div class="col-md-4">
+<ul>
+   <strong>WEB DEVELOPMENT:</strong>
+  <li>Meiyazhagan K</li>
+  <li>Saurav Arvind P</li>
+  <li>Maheshwaran A K</li>
+</ul>
+</div>
+<div class="col-md-4">
+<ul>
+  <strong> CONTENT WRITING:</strong>
+  <li>Vasanth A</li>
+  <li>Priya Dharshini S</li>
+</ul>
+</div>
+</div>
+</footer>
+    <style>
+#myBtn {
+  display: none;
+  position: fixed;
+   width: 50px;
+      height: 50px;
+  bottom: 40px;
+  right: 50px;
+  z-index: 99;
+  font-size: 22px;
+  text-align: center;
+  line-height: 50px;
+  border: none;
+  outline: none;
+  background-color:black;
+  color:#FF512F;
+  cursor: pointer;
+  
+  border-radius: 50%;
+}
+
+#myBtn:hover {
+  color: white;
+}
+</style>
+</head>
+ 
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+    </body>
+</html>
